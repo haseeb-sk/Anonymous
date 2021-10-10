@@ -12,19 +12,17 @@ class Data:
 Bot created by @Royalbotz
 
 Server : [paid vps ](https://my.racknerd.com/aff.php?aff=2985)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
+Channel : [Royalbotz](https://t.me/Royalbotz/84/)
+Support : [tgBotsChat](t.me/tgBotsChat)
 Language : [Python](www.python.org)
-
-Developer : @haseeb_TG ( student)
+Developer : [Haseeb](t.me/haseeb_TG)
     """
 
     # Home Button
     home_button = [[InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]]
 
     # Remove Caption Button
-    remove_button = [InlineKeyboardButton("� Remove Caption �", callback_data="remove")]
+    remove_button = [InlineKeyboardButton("🥄Remove Caption ", callback_data="remove")]
 
     # Add caption button
     add_button = [InlineKeyboardButton("💬 Re-Add Caption 💬", callback_data="add")]
